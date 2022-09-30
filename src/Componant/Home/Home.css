@@ -1,0 +1,12 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.cart {
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 100%;
+    padding: 10px;
+    margin-right: 10px;
+}
