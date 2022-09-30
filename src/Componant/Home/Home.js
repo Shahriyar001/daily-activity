@@ -9,16 +9,22 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setActivitys(data))
 
-    }, [])
+    }, []);
+
+    const handleClick = (activity) => {
+        console.log(activity);
+    }
+
     return (
         <div>
-            <h1>I am from home</h1>
+            <h3>Select today activity</h3>
             <div className='home-container'>
                 <div className='active-side'>
                     {
                         activitys.map(activity => <Activity
                             key={activity.id}
                             activity={activity}
+                            handleClick={handleClick}
                         ></Activity>)
                     }
                 </div>
