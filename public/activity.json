@@ -16,7 +16,7 @@
         "picture": "images/soccer-.jpg",
         "about": "Sports is essential for body and mind fitness. Football is most popular then all sports.",
         "age": 10,
-        "time": 30,
+        "time": 90,
         "price": 40,
         "eyeColor": "blue",
         "gender": "female"
@@ -27,7 +27,7 @@
         "picture": "images/jogging.jpg",
         "about": "Jogging is most importent exersize for any of age, everyone should spent time atlest 20 munite i in a day.",
         "age": 24,
-        "time": 30,
+        "time": 20,
         "price": 21,
         "eyeColor": "brown",
         "gender": "female"
@@ -38,7 +38,7 @@
         "picture": "images/coding.jpg",
         "about": "Codding is most importent work for who want to became an organized person, it increse logical power.",
         "age": 25,
-        "time": 30,
+        "time": 60,
         "price": 21,
         "eyeColor": "green",
         "gender": "female"
@@ -49,7 +49,7 @@
         "picture": "images/climbing.jpg",
         "about": "Climbing is a dangerous and tricky and also exiting activity, But it need proper trining.",
         "age": 28,
-        "time": 30,
+        "time": 40,
         "price": 34,
         "eyeColor": "blue",
         "gender": "female"
@@ -60,7 +60,7 @@
         "picture": "images/lifting.jpg",
         "about": "Lifting is most hard activity of workout, it needs proper age and power to do this activity.",
         "age": 31,
-        "time": 30,
+        "time": 25,
         "price": 20,
         "eyeColor": "brown",
         "gender": "female"
