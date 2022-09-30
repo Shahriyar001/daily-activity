@@ -1,13 +1,19 @@
 import React from 'react';
 import './Cart.css'
 
-const Cart = (data) => {
+const Cart = ({ data }) => {
     console.log(data)
     console.log(data.length)
+
+    let total = 0;
+    for (const activity of data) {
+        total = total + activity.time;
+    }
+
     return (
         <div>
             <div className='cart'>
-                <p>selected item:{data.length}</p>
+
                 <h2>Shahriyar</h2>
                 <p>Dhaka, bangladesh</p>
                 <div className='personal-info'>
@@ -25,8 +31,9 @@ const Cart = (data) => {
 
                 </div>
                 <h3>Exercize detile</h3>
-                <p>Exersize detile:{ }</p>
-                <p>Break time:{data.length}</p>
+                <p className='exer-item'>Selected Activity:{data.length}</p>
+                <p className='exer-item'>Exersize detile: {total}m</p>
+                <p className='exer-item'>Break time:{ }</p>
                 <button className='btn-com'>Activity complite</button>
             </div>
 

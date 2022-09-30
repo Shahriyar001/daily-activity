@@ -59,10 +59,21 @@
 }
 
 .btn-com {
-    background-color: darkgrey;
+    background-color: lavender;
     padding: 10px;
     margin: 20%;
     border: none;
     border-radius: 8px;
 
+}
+
+.exer-item {
+    background-color: lavender;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+
+.btn-com:hover {
+    background-color: lightslategray;
 }
