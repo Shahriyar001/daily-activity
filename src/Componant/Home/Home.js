@@ -22,7 +22,7 @@ const Home = () => {
 
     return (
         <div>
-            <h3>Select today activity</h3>
+            <h3 className='selection-part'>Select today activity</h3>
             <div className='home-container'>
                 <div className='active-side'>
                     {

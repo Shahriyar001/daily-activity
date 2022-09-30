@@ -1,3 +1,8 @@
+.selection-part {
+    color: darkcyan;
+    margin-left: 5%;
+}
+
 .home-container {
     display: grid;
     grid-template-columns: 3fr 1fr;

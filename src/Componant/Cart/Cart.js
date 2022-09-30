@@ -18,7 +18,7 @@ const Cart = ({ data }) => {
                 <p>Dhaka, bangladesh</p>
                 <div className='personal-info'>
                     <p><b>60</b><small>kg</small> <br /> <small>Weight</small></p>
-                    <p><b>6.5</b><br /><small>Height</small></p>
+                    <p><b>5.5</b><br /><small>Height</small></p>
                     <p><b>25</b><small>yrs</small> <br />
                         <small>Age</small></p>
                 </div>
