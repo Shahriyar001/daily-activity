@@ -23,7 +23,6 @@ const Home = () => {
                     }
                 </div>
                 <div className='data-side'>
-                    <h1>cart</h1>
                     <div className='cart'>
                         <p>This is player cart</p>
                     </div>
