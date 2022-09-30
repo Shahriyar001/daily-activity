@@ -1,0 +1,21 @@
+.questions-con {
+    margin: 10px;
+}
+
+.question-sector {
+    background-color: lavender;
+    width: 80%;
+    margin: 0 10%;
+    border: 1px solid lightseagreen;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.ans-sector {
+    background-color: lavender;
+    width: 80%;
+    margin: 0 10%;
+    border: 1px solid lightseagreen;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
